@@ -2,9 +2,6 @@ import React, { useState } from 'react';
 import FullCalendar from '@fullcalendar/react';
 import dayGridPlugin from '@fullcalendar/daygrid';
 import EventForm from '../EventForm/EventForm';
-import { JsonDB, Config } from 'node-json-db';
-
-var db = new JsonDB(new Config("calendar-data", true, false, '/'));
 
 
 // Define the event type
